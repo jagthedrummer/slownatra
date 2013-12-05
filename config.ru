@@ -1,0 +1,3 @@
+require './slownatra'
+
+run Slownatra
