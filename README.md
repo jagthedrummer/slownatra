@@ -1,5 +1,7 @@
 # Slownatra
 
+[![Code Climate](https://codeclimate.com/repos/52f3aefc6956807fac00279f/badges/a5d7af6b854b819c1e13/gpa.png)](https://codeclimate.com/repos/52f3aefc6956807fac00279f/feed)
+
 Slownatra is a very simple Sinatra app that adds an artifical wait to
 the page response.  The default wait time is 2 seconds.  
 
