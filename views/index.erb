@@ -4,8 +4,22 @@
     <title>Slownatra</title>
   </head>
   <body>
-    <h1>You've just had an encounter with slownatra!</h1>
+    <h1>Sinatra. Only the slow jams.</h1>
     <h3>Your visit was slowed by <%= @wait_time %> seconds.</h3>
+    <form action="/">
+      <h3>Slow my next visit by <input type="text" value="<%= @wait_time %>" size="2"> seconds. <input type="submit" value="Slow it doooown"></h3>
+    </form>
+    <hr />
+    <h2>FAQ</h2>
+    <h3>Are you crazy? / Why the hell does this exist? / The Internet is worse because this code is on it.</h3>
+    <p>
+    This was originally used to test how I/O bound processes differ from CPU bound process in Resque and Sidekiq,
+    and now I'm using it to investigate how webrick/unicorn/puma impact Heroku performance.
+    It's probably not good for much else.
+    </p>
+    <hr />
+    <h2>Contributions welcome</h2>
+    <p>You can <a href="https://github.com/jagthedrummer/slownatra">find the source on GitHub</a></p>
   </body>
 </html>
 
