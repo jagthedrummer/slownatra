@@ -7,7 +7,7 @@
     <h1>Sinatra. Only the slow jams.</h1>
     <h3>Your visit was slowed by <%= @wait_time %> seconds.</h3>
     <form action="/">
-      <h3>Slow my next visit by <input type="text" value="<%= @wait_time %>" size="2"> seconds. <input type="submit" value="Slow it doooown"></h3>
+      <h3>Slow my next visit by <input type="text" name="wait_time" value="<%= @wait_time %>" size="2"> seconds. <input type="submit" value="Slow it doooown"></h3>
     </form>
     <hr />
     <h2>FAQ</h2>
