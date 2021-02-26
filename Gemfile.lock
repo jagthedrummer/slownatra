@@ -15,3 +15,9 @@ PLATFORMS
 
 DEPENDENCIES
   sinatra (= 1.4.4)
+
+RUBY VERSION
+   ruby 2.4.10p364
+
+BUNDLED WITH
+   1.17.3
